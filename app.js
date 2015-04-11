@@ -1,8 +1,25 @@
-var http = require('http');
+var express = require('express');
+var expressHbs = require('express-handlebars');
+var app = express();
 
-var server = http.createServer(function (request, response) {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello World\n");
+app.engine('hbs', expressHbs({
+  extname: 'hbs',
+  defaultLayout: 'main.hbs'
+}));
+
+app.set('view engine', 'hbs');
+
+var port = (process.env.NODE_ENV === 'production') ? 80 : 1234;
+
+app.get('/', function (req, res) {
+  res.render('index');
 });
-server.listen(80);
-console.log("Server running at http://127.0.0.1:80/");
+
+var server = app.listen(port, function () {
+
+  var host = server.address().address;
+  var port = server.address().port;
+
+  console.log('Example app listening at http://%s:%s', host, port);
+
+});

@@ -1,0 +1,26 @@
+{
+  "name": "me",
+  "version": "0.1.0",
+  "description": "Source code of charca.me",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charca/me.git"
+  },
+  "keywords": [
+    "charca"
+  ],
+  "author": "Maxi Ferreira <charca@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charca/me/issues"
+  },
+  "homepage": "https://github.com/Charca/me",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.0"
+  }
+}
