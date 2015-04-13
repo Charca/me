@@ -15,6 +15,8 @@ app.get('/', function (req, res) {
   res.render('index');
 });
 
+app.use(express.static('public'));
+
 var server = app.listen(port, function () {
 
   var host = server.address().address;

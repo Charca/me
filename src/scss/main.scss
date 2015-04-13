@@ -1,0 +1,73 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  //text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+// MATE BUBBLES
+.bubbles {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bubble {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #000;
+  position: absolute;
+  -webkit-animation: bubbleUp 5s infinite;
+}
+
+.bubble:nth-child(1) {
+  left: 10px;
+  bottom: 0;
+}
+
+.bubble:nth-child(2) {
+  left: 20px;
+  bottom: 10px;
+  -webkit-animation-duration: 4s;
+}
+
+.bubble:nth-child(3) {
+  left: 30px;
+  bottom: 5px;
+  -webkit-animation-duration: 6s;
+}
+
+
+@-webkit-keyframes bubbleUp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, -50px);
+    opacity: 0;
+  }
+}
