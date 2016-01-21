@@ -3,6 +3,8 @@ Source code of charca.me
 
 ### Instructions
 
+> Important! Create a `twitter.js` file based on `twitter.example.js` or the build will fail!
+
 Install dependencies:
 
 ```
