@@ -1,5 +1,5 @@
 # me
-Source code of [https://charca.me](charca.me).
+Source code of [charca.me](https://charca.me).
 
 ### Instructions
 
