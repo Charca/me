@@ -15,7 +15,7 @@ I already have some daily habits that I try to do every day or at least 6 times 
 
 So after much consideration, and an in-depth review of my "Someday / Maybe" list, I finally decided that I'm going to do the thing that I wanted to do since I was 14 years old. **I'm going to learn Japanese.**
 
-Actually, it'd be more accurate to say that I'm going to _study_ Japanese. Yes, hopefully I'd end up learning something after studying it for 100 days, but that's not what the challenge is about. This is more than a test on self-discipline than anything else. It's about making very little progress every day, without excuse. It's a way to prove myself that no matter how busy I think I am, or how overwhelmed I might feel, I can still find a little bit of time in my day to sit down, and do the thing.
+Actually, it'd be more accurate to say that I'm going to _study_ Japanese. Yes, hopefully I'd end up learning something after studying it for 100 days, but that's not what the challenge is about. This is more of a test on self-discipline than anything else. It's about making very little progress every day, without excuse. It's a way to prove myself that no matter how busy I think I am, or how overwhelmed I might feel, I can still find a little bit of time in my day to sit down, and do the thing.
 
 If you're curious, [this is the course](https://www.udemy.com/japanese-in-context) that I'll be taking. I've purchased it a couple years ago before my trip to Japan, and of course, I abandoned it after I came back. This time, I'm sure things will be different. Today is Day 1.
 
